@@ -3,6 +3,7 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const TodoModal = require("./modals/Todo");
 
+
 //creating the express app
 const app = express();
 

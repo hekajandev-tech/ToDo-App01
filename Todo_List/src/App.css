@@ -4,41 +4,35 @@
   align-items: center;
 }
 
-/* input field */
-.create_form input{
-  width: 300px;
-  padding: 10px;
-  border-bottom: 2px solid ;
-  outline: none;
-}
 
-/* form button */
-.create_form button {
-  padding: 10px;
-  background-color: black;
-  color: white;
-  cursor: pointer;
-}
+
 
 
 /* task card  */
 .task {
     display: flex;
     align-items: center;
-    width: 345px;
+    width: 600px;
     justify-content: space-between;
-    background-color: black;
+    background-color:cadetblue;
     color: white;
-    height: 35px;
-    padding: 2px 5px 2px 5px;
+    height: 60px;
+    border-radius: 16px;
+    padding: 1px 5px 2px 5px;
     margin-top: 2px;
 }
 
+/* styling the circle and the text */
+.todo-content{
+    display: flex;
+    align-items: center;
+    gap: 12px;
 
+}
 /* styles for the todoitem attributes */
 .checkbox {
     display: flex;
-    align-items: center;
+    align-items: center;  
 }
 
 .checkbox .icon {
